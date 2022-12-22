@@ -1,0 +1,57 @@
+{
+  "name": "Tweet",
+  "namespace": "com.kurosz.masteringkafkastreams.avro",
+  "type": "record",
+  "fields": [
+    {
+      "name": "createdAt",
+      "type": [
+        "null",
+        "int"
+      ],
+      "logicalType": "date"
+    },
+    {
+      "name": "id",
+      "type": [
+        "null",
+        "int"
+      ]
+    },
+    {
+      "name": "lang",
+      "type": {
+        "name": "TweetLang",
+        "type": "enum",
+        "symbols": [
+          "EN",
+          "PL",
+          "DE",
+          "ES"
+        ]
+      },
+      "default": "EN"
+    },
+    {
+      "name": "text",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "source",
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    {
+      "name": "user",
+      "type": [
+        "null",
+        "User"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+spring:
+  kafka:
+    bootstrap-servers: ${spring.embedded.kafka.brokers}
+    schema-registry: "mock://localhost:1234"
+
+kafka:
+  topology:
+    tweets-input: tweets-input
+    tweets-output: tweets-output

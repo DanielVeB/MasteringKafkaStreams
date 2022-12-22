@@ -1,0 +1,9 @@
+spring:
+  kafka:
+    bootstrap-servers: http://localhost:9092
+    schema-registry: http://localhost:8081
+
+kafka:
+  topology:
+    tweets-input: tweets-input
+    tweets-output: tweets-output

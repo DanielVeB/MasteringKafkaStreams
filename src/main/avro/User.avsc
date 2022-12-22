@@ -1,0 +1,35 @@
+{
+  "name": "User",
+  "namespace": "com.kurosz.masteringkafkastreams.avro",
+  "type": "record",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "id",
+      "type": "int"
+    },
+    {
+      "name": "description",
+      "type": "string"
+    },
+    {
+      "name": "screenName",
+      "type": "string"
+    },
+    {
+      "name": "url",
+      "type": "string"
+    },
+    {
+      "name": "followerCount",
+      "type": "int"
+    },
+    {
+      "name": "friendsCount",
+      "type": "int"
+    }
+  ]
+}
