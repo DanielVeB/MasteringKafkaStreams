@@ -7,3 +7,5 @@ kafka:
   topology:
     tweets-input: tweets-input
     tweets-output: tweets-output
+    users-input: users
+    users-output: users-output

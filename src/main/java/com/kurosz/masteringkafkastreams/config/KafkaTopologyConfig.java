@@ -5,6 +5,10 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties("kafka.topology")
 public record KafkaTopologyConfig(
         String tweetsInput,
-        String tweetsOutput
+        String tweetsOutput,
+
+        String usersInput,
+
+        String usersOutput
 ) {
 }

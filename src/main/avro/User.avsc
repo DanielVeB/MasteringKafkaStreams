@@ -12,18 +12,6 @@
       "type": "int"
     },
     {
-      "name": "description",
-      "type": "string"
-    },
-    {
-      "name": "screenName",
-      "type": "string"
-    },
-    {
-      "name": "url",
-      "type": "string"
-    },
-    {
       "name": "followerCount",
       "type": "int"
     },
